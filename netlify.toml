@@ -1,0 +1,15 @@
+# Netlify configuration file for frictionless deployment of your Editorial Portfolio
+
+[build]
+  # The command Netlify runs to build your site
+  command = "npm run build"
+  
+  # The directory containing the static files of your built app
+  publish = "dist"
+
+# Redirects rule for Single Page Applications (SPA)
+# This redirects any route/subpage requests straight to index.html so React can handle the routing
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
