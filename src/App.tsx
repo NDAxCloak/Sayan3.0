@@ -9,6 +9,7 @@ import {
   Phone,
   Github,
   Linkedin,
+  Instagram,
   Briefcase,
   GraduationCap,
   Flame,
@@ -352,6 +353,17 @@ export default function App() {
                 >
                   <Linkedin className="w-4 h-4 text-purple-400" />
                   LinkedIn Main
+                </a>
+                <a
+                  id="btn-fast-instagram"
+                  href="https://www.instagram.com/patrasayan0926?igsh=Z2twN3pocnZ3bjJy"
+                  target="_blank"
+                  rel="noreferrer"
+                  referrerPolicy="no-referrer"
+                  className="px-4 py-2 bg-white/5 hover:bg-white/10 text-white text-[10px] uppercase tracking-widest border border-white/10 rounded-none transition-colors flex items-center gap-1.5"
+                >
+                  <Instagram className="w-4 h-4 text-pink-400" />
+                  Instagram Feed
                 </a>
               </div>
             </div>
@@ -770,6 +782,9 @@ export default function App() {
                   <span className="text-cyan-400">SIGNAL:</span> +91 6289435087
                 </div>
                 <div>
+                  <span className="text-pink-400">INSTAGRAM:</span> <a href="https://www.instagram.com/patrasayan0926?igsh=Z2twN3pocnZ3bjJy" target="_blank" rel="noreferrer" className="underline hover:text-white transition-colors">@patrasayan0926</a>
+                </div>
+                <div>
                   <span className="text-gray-400">TELEGRAM:</span> NDAxCloak
                 </div>
               </div>
@@ -816,6 +831,16 @@ export default function App() {
               className="hover:text-cyan-400 transition-colors uppercase font-bold tracking-wider"
             >
               LinkedIn
+            </a>
+            <a
+              id="footer-instagram-link"
+              href="https://www.instagram.com/patrasayan0926?igsh=Z2twN3pocnZ3bjJy"
+              target="_blank"
+              rel="noreferrer"
+              referrerPolicy="no-referrer"
+              className="hover:text-cyan-400 transition-colors uppercase font-bold tracking-wider"
+            >
+              Instagram
             </a>
           </div>
         </div>
