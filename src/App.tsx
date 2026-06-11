@@ -163,8 +163,8 @@ export default function App() {
               <span className="text-white group-hover:text-cyan-400 transition-colors uppercase leading-none">
                 SAYAN PATRA
               </span>
-              <span className="text-[9px] text-gray-500 font-mono tracking-tight leading-3 font-normal">
-                OPERATIONS ANALYST
+              <span className="text-[8px] text-cyan-400 font-mono tracking-wider leading-3 font-bold uppercase">
+                FOUNDER, RIKSAAN SDS
               </span>
             </div>
           </a>
@@ -293,15 +293,16 @@ export default function App() {
               </div>
 
               <div className="space-y-2">
-                <div className="text-[10px] tracking-[0.4em] font-mono text-cyan-400 font-bold uppercase">Senior Operations Analyst & Dev</div>
+                <div className="text-[10px] tracking-[0.3em] font-mono text-cyan-400 font-bold uppercase">Founder & Lead Developer of Riksaan SDS</div>
                 <h1 className="text-4xl sm:text-6xl font-display font-black tracking-tighter text-white uppercase leading-none">
                   SAYAN <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-500">PATRA</span>
                 </h1>
-                <p className="text-sm text-gray-400 font-mono">Specialization: Immersive Automations & Business Workflows</p>
+                <p className="text-sm text-gray-400 font-mono">Specialization: Immersive Custom Websites & Web Applications</p>
+                <p className="text-xs text-purple-400 font-mono mt-1 font-semibold">Riksaan SDS representing: We build digital experiences that drive impact.</p>
               </div>
 
-              <p className="text-xs text-gray-400 font-sans leading-relaxed max-w-xl">
-                Tech-enabled Operations Specialist optimizing complex workflows, eliminating physical administrative chore discrepancies, and converting financial ledgers into strategic, high-density visualization hubs. Dual certified analytics professional and software developer.
+              <p className="text-xs text-gray-300 font-sans leading-relaxed max-w-xl">
+                I am Sayan Patra, Founder of Riksaan SDS. We help small businesses build a professional digital footprint through custom websites, web applications, and digital solutions that help them attract customers and grow online.
               </p>
 
               {/* Contact metadata tokens in Gojo format */}
@@ -325,10 +326,21 @@ export default function App() {
 
               <div className="flex flex-wrap gap-3 pt-2 font-mono">
                 <a
+                  id="btn-fast-riksaan"
+                  href="https://riksaansds.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                  referrerPolicy="no-referrer"
+                  className="px-6 py-2.5 bg-cyan-500 hover:bg-cyan-400 text-black text-[10px] uppercase tracking-widest font-bold rounded-none transition-transform hover:scale-[1.02] flex items-center gap-1.5"
+                >
+                  <ExternalLink className="w-4 h-4 text-black" />
+                  Riksaan SDS
+                </a>
+                <a
                   id="btn-fast-pact"
                   href="#contact"
                   onClick={() => trackSectionView("contact")}
-                  className="px-6 py-2.5 bg-cyan-500 hover:bg-cyan-400 text-black text-[10px] uppercase tracking-widest font-bold rounded-none transition-transform hover:scale-[1.02]"
+                  className="px-4 py-2 bg-white/5 hover:bg-white/10 text-white text-[10px] uppercase tracking-widest border border-white/10 rounded-none transition-colors flex items-center gap-1.5"
                 >
                   Seal Covenant
                 </a>
@@ -776,6 +788,9 @@ export default function App() {
                   Direct Frequencies
                 </div>
                 <div>
+                  <span className="text-[#a855f7]">STARTUP:</span> <a href="https://riksaansds.netlify.app/" target="_blank" rel="noreferrer" className="underline hover:text-white transition-colors">Riksaan SDS</a>
+                </div>
+                <div>
                   <span className="text-purple-400">SMTP:</span> patrasayan883@gmail.com
                 </div>
                 <div>
@@ -802,8 +817,8 @@ export default function App() {
       <footer className="mt-20 border-t border-white/10 bg-[#0c0c0e]/80 py-8 relative overflow-hidden">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-[10px] font-mono text-gray-500">
           <div className="space-y-1">
-            <p className="font-bold uppercase tracking-wide text-gray-400">© 2026 S. PATRA ARCHIVE</p>
-            <p className="text-[9px] text-gray-600 uppercase tracking-widest">MICRO1 CERTIFIED DEVELOPER // OPERATIONS WIZARDO</p>
+            <p className="font-bold uppercase tracking-wide text-gray-400">© 2026 RIKSAAN SDS // S. PATRA ARCHIVE</p>
+            <p className="text-[9px] text-gray-600 uppercase tracking-widest">FOUNDER & LEAD DEVELOPER // OPERATIONS ARCHITECT</p>
           </div>
           
           <div className="flex items-center gap-4">
@@ -812,6 +827,16 @@ export default function App() {
               <span className="text-gray-500 uppercase tracking-widest text-[9px]">Status: Optimal</span>
             </div>
             <span className="text-gray-700">|</span>
+            <a
+              id="footer-riksaan-link"
+              href="https://riksaansds.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+              referrerPolicy="no-referrer"
+              className="hover:text-[#a855f7] font-extrabold text-[#a855f7] transition-colors uppercase tracking-wider"
+            >
+              Riksaan SDS
+            </a>
             <a
               id="footer-github-link"
               href="https://github.com/NDAxCloak"
